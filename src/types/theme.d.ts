@@ -1,3 +1,9 @@
+import 'styled-components'
+
+declare module 'styled-components' {
+  export interface DefaultTheme extends Theme {}
+}
+
 export interface Theme {
   appBackground: string
   appColor: string
